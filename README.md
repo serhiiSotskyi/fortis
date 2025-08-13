@@ -1,12 +1,28 @@
-# React + Vite
+# FORTIS – Construction Company Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a one-page business website built for a UK-based construction and decorating company, **FORTIS Repointing & Decorating**. It serves as a public-facing site offering brick repointing, restoration, and interior painting services.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
+- React (single-page app)
+- Tailwind CSS
+- Netlify - Deployment and hosting
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Website
+https://fortisbuilds.co.uk
 
-## Expanding the ESLint configuration
+## 📸 Note on Visuals
+The current photos on the site are **temporary placeholders**. Real project images from recent and ongoing FORTIS jobs will be uploaded as soon as they are received.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📈 Business Impact
+- Used by a real client (live and in production)
+- Optimised for SEO, fast load, and mobile-first design
+- Built with future extensibility in mind (e.g. service gallery, AI integration)
+
+## 🧠 AI Chatbot – Future Roadmap
+We plan to integrate a custom AI chatbot that will:
+- Handle basic customer queries (e.g., service info, pricing, availability)
+- Collect initial project details before redirecting to the business owner
+- Use OpenAI + lightweight hosting to keep it fast and cost-efficient
+
+## 📝 License
+MIT – Feel free to fork and adapt
