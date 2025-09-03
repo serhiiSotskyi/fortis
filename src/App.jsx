@@ -10,9 +10,9 @@ const colors = {
 };
 
 const images = [
-  '/assets/house1.jpg',
-  '/assets/house2.jpg',
-  '/assets/house3.jpg',
+  '/assets/pic3.jpg',
+  '/assets/pic4.jpg',
+  '/assets/pic6.jpg',
 ];
 
 const testimonials = [
@@ -87,7 +87,7 @@ function App() {
         {/* Hero Heading aligned right */}
         <div className="flex justify-end px-6 md:px-20 mt-6">
           <h2 className="text-5xl md:text-7xl font-extrabold uppercase leading-tight text-right">
-            REPOINTING & REPOINTING<br />SPECIALISTS
+            REPOINTING & RESTORATION<br />SPECIALISTS
           </h2>
         </div>
 
@@ -227,7 +227,7 @@ function App() {
       >
         <div className="w-full md:w-[40%] max-w-[400px]">
           <img
-            src="/assets/ladder_team.png"
+            src="/assets/pic1.jpg"
             alt="Construction Team"
             className="w-full h-auto object-cover rounded shadow"
           />
@@ -259,7 +259,7 @@ function App() {
         <div className="grid md:grid-cols-2 gap-10">
           <div className="space-y-6">
             <img
-              src="/assets/history_wood.png"
+              src="/assets/pic5.jpg"
               alt="Timber Supplies"
               className="w-full max-w-[400px] h-auto object-cover rounded shadow"
             />
@@ -277,7 +277,7 @@ function App() {
           </div>
           <div>
             <img
-              src="/assets/history_workers.png"
+              src="/assets/pic2.jpg"
               alt="Measuring Structure"
               className="w-full max-w-[600px] h-auto object-cover rounded shadow"
             />
