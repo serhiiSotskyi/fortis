@@ -72,7 +72,7 @@ function App() {
             <img
               src="/assets/logo.jpg"
               alt="FORTIS Logo"
-              className="h-20 w-auto object-contain rounded-full"
+              className="h-12 md:h-20 w-auto object-contain rounded-full"
             />
         
           <button
@@ -87,7 +87,7 @@ function App() {
         {/* Hero Heading aligned right */}
         <div className="flex justify-end px-6 md:px-20 mt-6">
           <h2 className="text-5xl md:text-7xl font-extrabold uppercase leading-tight text-right">
-            REPOINTING & RESTORATION<br />SPECIALISTS
+            REPOINTING & DECORATING<br />SPECIALISTS
           </h2>
         </div>
 
@@ -259,28 +259,30 @@ function App() {
         <div className="grid md:grid-cols-2 gap-10">
           <div className="space-y-6">
             <img
-              src="/assets/pic5.jpg"
+              src="/assets/pic2.jpg"
               alt="Timber Supplies"
               className="w-full max-w-[400px] h-auto object-cover rounded shadow"
             />
+            
+          </div>
+          <div>
+            <img
+              src="/assets/pic5.jpg"
+              alt="Measuring Structure"
+              className="w-full max-w-[500px] h-auto object-cover rounded shadow"
+            />
+            <br />
             <p className="text-sm leading-relaxed max-w-[500px]">
               At FORTIS, we specialise in repointing, brick cleaning, and exterior
-              restoration — bringing tired facades back to life. Whether it's Victorian
-              terraces, post-war brickwork, or garden walls, we treat every surface
+              restoration, bringing tired facades back to life. Whether it's Victorian
+              terraces, or garden walls, we treat every surface
               with precision and respect.
             </p>
             <p className="text-sm leading-relaxed max-w-[500px]">
               Our mission is simple: to protect and enhance the look of your property.
-              We don’t cut corners. We don’t upsell. We just do what’s right — and we’ve
+              We don’t cut corners. We don’t upsell. We just do what’s right and we’ve
               built our reputation on that.
             </p>
-          </div>
-          <div>
-            <img
-              src="/assets/pic2.jpg"
-              alt="Measuring Structure"
-              className="w-full max-w-[600px] h-auto object-cover rounded shadow"
-            />
           </div>
         </div>
       </div>
